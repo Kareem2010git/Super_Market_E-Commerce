@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-png" href="./src/assets/logo.png">
+    <title>هايبر ماركت مكة المكرمة</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              surface: "#f9f9ff",
+              "surface-container": "#e7eefe",
+              "surface-container-low": "#f0f3ff",
+              "on-surface": "#151c27",
+              "on-surface-variant": "#4d4632",
+              primary: "#735c00",
+              "primary-container": "#facc15",
+              "on-primary-container": "#6c5700",
+              outline: "#7f7660",
+              "outline-variant": "#d1c6ab",
+              error: "#ba1a1a",
+              "error-container": "#ffdad6",
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        display: inline-block;
+        line-height: 1;
+        direction: ltr;
+      }
+      body { font-family: 'Work Sans', sans-serif; background-color: #f9f9ff; }
+    </style>
+  </head>
+  <body class="bg-surface text-on-surface">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
